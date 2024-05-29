@@ -1,0 +1,284 @@
+body{
+   
+}
+*{
+    font-family: "Sofia Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 80px;
+    font-style: bold;
+    overflow-x: hidden;
+}
+
+.nav{ 
+margin-top: -30px;
+display: inline-block;
+position: fixed;
+width: 100%;
+height: 80px;
+background-color:  rgb(124, 160, 113); 
+font-weight: 700;z-index: 10;
+@media (max-width:660px){
+    margin-top: -30px;
+    height: 80px;
+}
+}
+.nav button{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 15%;
+    border-style: none;
+    z-index: 20;
+    @media (max-width:660px){
+        width: 50%;
+        margin-right: 80%;
+        height:20px ;
+        text-align: center;
+        margin-left: 20%;
+        background-color: rgb(66, 65, 65);
+    }
+}
+.nav p{
+    margin-top: -40px;
+    /* margin-left: 10%; */
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    @media (max-width:660px){margin-left: 5%;}
+}
+.nav h3{
+    margin-left: 30px;
+    color:  rgb(255, 255, 255);
+    width: 15%;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    @media (max-width:660px) {
+        margin-top: 20px;
+        margin-left: 3%;
+    }
+}
+.nav a{
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    @media (max-width:660px){margin-left: 6%;
+        margin-top: -10px;}
+}
+.nav a:first-child{margin-left: 15%;}
+.main{
+    background-image: url(img/mainrest.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  
+    padding-left: 50px;
+    color: aliceblue;
+    background-attachment:fixed;
+     @media (max-width:660px){height: 400px;}
+}
+.main h1{
+font-size: 60px;
+padding-top: 300px;
+@media (max-width:660px){padding-top: 50px; font-size: 40px;}
+}
+.main p{
+    padding-top: 100px;
+    font-size: 20px;
+    @media (max-width:660px){padding-top: 5px;width: 300px;}
+}
+.reasons {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 86px;
+    margin-right: 86px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+    @media (max-width:660px){width: 100%;
+    margin-left: 0px;}
+    padding-left: 0px;
+}
+li h5{
+    @media (max-width:660px){ font-size: 16px;
+    margin-bottom: 40px;}
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+li p{@media (max-width:660px){
+     font-size: 17px;
+     font-style: italic;
+    margin-top: -30px;}}
+.menu {
+    background-color: rgb(43, 43, 43) ;
+     color: white;
+     
+}
+.image{
+    @media (max-width:660px){width: 130px;
+    margin-left: 5px;}
+}
+.menu img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    @media (max-width:660px){width: 100px;
+    height: 100px;}
+}
+.menu ul{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 10px; */
+    margin-right: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 50px;
+    @media (max-width:660px){margin-right: 5px;
+    padding-left: 5px;}
+}
+.menu li{
+    width: 200px;
+    @media (max-width:660px){}
+}
+.menu h3{
+    @media (max-width:660px){font-size: 17px;}
+}
+.menu p{
+    @media (max-width:660px){font-size: 13px;
+    margin-top: 15px;}}
+.menu button{
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+width: 300px; height: 40px;
+font-weight: 600;
+font-size: 20px;
+border: 0cap;
+margin-bottom: 60px;
+margin-top: 40px;
+}
+.menu li:nth-child(2){
+    @media (max-width:660px){padding-top: 70px; }
+}
+.butmenu{
+    text-align: center;
+}
+.place{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:  rgb(81, 111, 72);
+    @media (max-width:660px){display: block;} 
+
+}
+.map{
+width: 800px;
+@media (max-width:660px){ width: 100%;}
+} 
+.placetext{
+    width: 700px;
+    color: rgb(255, 255, 255);
+    @media (max-width:660px){width: 100%;}
+}
+.placetext h2{
+    border-bottom: 3px solid rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+}
+.placetext p{
+    font-size: 25px;
+    margin: 20px;
+}
+.wine{
+    background-image: url(img/presentsfood.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 30px;
+    background-attachment: fixed;
+    @media (max-width:660px){width: 400px;background-size: cover;
+    width: 300px;}
+}
+.presents{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.offer{
+    width: 700px;
+    margin-left: 20px;
+    @media (max-width:660px){font-size:20px ; text-align: center;
+    margin-left: 0px;
+margin-right: 0;}} 
+.offer h2{@media (max-width:660px){font-size: 30px;
+width: 100%; }    
+}
+#offtext{@media (max-width:660px){width: 100px;
+font-size: 10px;}}
+
+.butform{
+    background-color:  rgb(40, 81, 28); 
+    width: 300px;
+    height: 40px;
+    color: white;
+    border-radius: 30px;
+    border-style: none;
+    @media (max-width:660px){width: 200px;}
+}
+.form{
+    text-align: center;
+    @media (max-width:660px){margin: -40px;}
+}
+.offer{
+    text-align: center;
+}
+#offtext{
+    text-align: left;
+    width: 600px;
+    margin-left: 30px;
+    @media (max-width:660px){width: 230px;
+        font-size: 15px;
+    }
+}
+.icons img{
+    background-color: rgb(158, 188, 155); ;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 40px;
+    
+    
+}
+.icons p{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 170px;
+    @media (max-width:660px){padding-top: 20px;}
+}
+.foottxt {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+footer{
+   background-attachment: fixed;
+    background-image: url(img/enolaa.jpg);
+    background-size: cover;
+    @media (max-width:660px){height: 300px;}
+
+
+}
+    
